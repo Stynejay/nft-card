@@ -1,0 +1,115 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%);
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    margin: 20px 485px 20px 485px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+article:hover{
+    box-shadow: 1px 1px 30px 10px black; 
+    
+}
+#main-image{
+    position: inherit;
+    border-radius: 10px;
+    /*z-index: 1;*/
+}
+#hover-image{
+    position: relative;
+    z-index: 2;
+    top: -190px;
+    left: 140px;
+    opacity: 0.1%;
+    
+}
+#main-image:hover{
+    cursor: pointer;
+    opacity: 30%;
+    color: hsl(178, 100%, 50%);
+ 
+}
+#hover-image:hover{
+    cursor: pointer;
+    opacity: 100%;
+    
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+
+#quote{
+    font-size: 18px;
+    font-weight: 300px;
+    margin-left: 40px;
+    margin-right: 32px;
+    color: hsl(215, 51%, 70%);
+}
+#ethereum{
+    color: hsl(178, 100%, 50%);
+    width: 50%;
+}
+#time-left{
+    color: hsl(215, 51%, 70%);
+}
+#card-info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+
+}
+#ethereum-icon{
+    width: 10px;
+    height: 15px;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+#clock{
+    width: 10px;
+    height: 15px;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.divider{
+    border: 0.1px solid rgba(160, 160, 160, 0.2);
+    margin: 0px 40px 10px 40px ;
+}
+#Jules{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+#image-jules{
+    width: 50px;
+    padding-left: 4-px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+#credit{
+    margin-left: 30px;
+    color: hsl(215, 51%, 70%);
+}
+#span2{
+    color: white;
+}
+h1:hover, #span2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
